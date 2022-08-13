@@ -17,7 +17,7 @@ This model just convert one-hot vector (shapes 1,10) in picture 28x28x1 px
 8. BatchNormalization
 9. Conv2DTranspose: units=1 kernel=5 strides=(2, 2) padding='same' activation='sigmoid'
 
-I take model from [this](https://www.youtube.com/watch?v=mTd-AlYp5IE&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh&index=33)
+I take model from [it](https://www.youtube.com/watch?v=mTd-AlYp5IE&list=PLA0M1Bcd0w8yv0XGiF1wjerjSZVSrYbjh&index=33)
 
 # If u want to use it:
 1. Method 1:
@@ -33,5 +33,5 @@ model.compile(loss='mae', optimizer='adam', metrics=['acc'])
 
 2. Method 2
 
-go to [this](https://drive.google.com/file/d/1HUjHl3BglWCurCXA4Es6zXdq3cEePsza/view?usp=sharing)
+go to [there](https://drive.google.com/file/d/1HUjHl3BglWCurCXA4Es6zXdq3cEePsza/view?usp=sharing)
 and start for modules
